@@ -1,13 +1,17 @@
 import React from 'react';
 
-class searchBar extends React.Component {
+class SearchBar extends React.Component {
   constructor(props){
     super(props);
   }
 
   render(){
-    return(<h1>"Hey it worked!"</h1>);
+    return(
+      <div>
+        <h1>Hey it worked!</h1>
+        <input></input><button>Search</button>
+      </div>);
   }
 }
 
-export default searchBar;
+export default SearchBar;
